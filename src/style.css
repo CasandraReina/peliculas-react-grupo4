@@ -1,0 +1,273 @@
+:root {
+  --rojo: rgb(160, 0, 0);
+  --fondo: rgba(0, 0, 0, 0.89);
+  }
+  
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  body {
+      background: var(--fondo);
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+  .contenedor {
+      width: 90%;
+      margin: auto;
+  }
+  
+  header{
+      padding: 15px 0;
+  }
+  header .contenedor {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  header .logotipo {
+      font-family: 'Bebas Neue', cursive;
+      font-weight: normal;
+      color: var(--rojo);
+      font-size: 50px;
+  }
+  header nav a {
+      color: rgba(240, 248, 255, 0.616);
+      text-decoration: none;
+      margin-right: 18px;
+      font-size: 18px;
+  }
+  header nav a:hover,
+  header nav a.active {
+      color: white;
+  }
+  
+  /* Portada del Cine */
+  .PortadaCine {
+  font-size: 14px;
+  min-height: 40.62em;
+  color: rgba(255, 255, 255, 0.644);
+  background:linear-gradient(rgba(0, 0, 0, 0.425),hsl(0, 0%, 0%, .30)),url(./img/ENCANTO.jpg);
+  background-position: 30% 17%;
+  background-size: cover;
+  margin-top: 0px;
+  display: flex;
+  align-items: flex-end;
+  }
+  
+  .PortadaCine .contenedor {
+      margin: 0 auto;
+      margin-bottom: 70px;
+  }
+  .PortadaCine .Titulo {
+      font-size: 50px;
+      font-weight: 600;
+      margin-bottom: 15px;
+  }
+  
+  .PortadaCine .Descripcion {
+      font-size: 16px;
+      font-weight: normal;
+      max-width: 45%;
+      margin-bottom: 25px;
+  }
+
+.VerTrailer {
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding: 13px 13px;
+  margin-right: 15px;
+  background: rgba(0, 0, 0, 0.575);
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+.VerTrailer:hover {
+  background: white;
+  color: black;
+}
+
+
+
+/* ---------------peliculas.html-------------------- */
+
+.Fondo {
+  background:rgba(0, 0, 0, 0.356);
+}
+  /* CARTELERA */
+  
+  .Cartelera {
+    width: 100%;
+    height: 70px;
+    display: flex;
+  }
+  .TopPelicula {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    height: 80px;
+  }
+  .TopPelicula .Titulo {
+      font-family: 'Anton', sans-serif;
+      font-weight: 400px;
+      color: rgba(228, 25, 25, 0.747);
+      font-size: 25px;
+      margin-top: 15px;
+  }
+  .Subtitulo {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.801);
+  }
+
+
+
+  /* PELICULAS */
+  .Recientes {
+  margin-top: 15px;
+  height: 300px;
+  }
+  .PeliculasRecientes {
+    display: flex;
+    height:400px;
+    flex-direction: column;
+  }
+  .Peliculas1 {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: linear-gradient(rgba(29, 28, 28, 0.788),hsl(0, 0%, 0%, 0.089)),url(./img/Pelicula01\,.jpg);
+    background-position: 30% 17%;
+    background-size: cover;
+  }
+
+  .Peliculas2 {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: linear-gradient(rgba(29, 28, 28, 0.788),hsl(0, 0%, 0%, 0.089)),url(./img/Pelicula02...jpg);
+    background-position: 30% 17%;
+    background-size: cover;
+  }
+  .Peliculas3 {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: linear-gradient(rgba(29, 28, 28, 0.788),hsl(0, 0%, 0%, 0.089)),url(./img/Pelicula03...jpg);
+    background-position: 30% 17%;
+    background-size: cover;
+  }
+  .Peliculas4 {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: linear-gradient(rgba(29, 28, 28, 0.788),hsl(0, 0%, 0%, 0.089)),url(./img/Pelicula04...jpg);
+    background-position: 30% 17%;
+    background-size: cover;
+  }
+  .Peliculas5 {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: linear-gradient(rgba(29, 28, 28, 0.788),hsl(0, 0%, 0%, 0.089)),url(./img/Portada05...jpg);
+    background-position: 30% 17%;
+    background-size: cover;
+  }
+
+  .heart{
+   color: rgb(145, 7, 7);
+   margin-top: 0%;
+  }
+  .Icono {
+    width: 170px;
+    height: 250px;
+    margin: 50px 50px;
+    margin-left: 70px;
+    border: 3px solid rgba(0, 0, 0, 0.459);
+  }
+  .TituloPelicula {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: rgba(0, 0, 0, 0.781);
+  }
+  .Genero {
+    font-size: 12px;
+      font-weight: normal;
+      max-width: 90%;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      color: rgba(255, 255, 255, 0.61);
+  }
+
+  .Puntuacion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.842);
+  }
+
+  .PeliculasRecientes .Descripcion {
+    font-size: 14px;
+      font-weight: normal;
+      max-width: 80%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+  }
+
+ footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding:5px 5px;
+  background-color: rgba(255, 0, 0, 0.445);
+  color: black;
+  font-weight: bold;
+ }
+ .footer2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding:5px 5px;
+  background-color: rgba(255, 0, 0, 0.445);
+  color: black;
+  font-weight: bold;
+  margin-top: 1607px;
+  margin-left: 70px;
+  margin-right: 70px;
+ }
