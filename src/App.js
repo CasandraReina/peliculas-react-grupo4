@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './Header';
 import Subtitulo from './Subtitulo';
 import Peliculas from './Peliculas';
