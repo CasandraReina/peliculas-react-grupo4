@@ -6,52 +6,52 @@ import Pelicula4 from './img/Pelicula4.jpg';
 import Pelicula5 from './img/Pelicula5.jpg';
 
 class Peliculas extends React.Component{
-render(){
+  render(){
     return(
 <section className="Recientes">
   <div className="PeliculasRecientes">
 
-   <article className="Peliculas1">
-     <img src={Pelicula1} alt="" className="Icono"/>
+  <article class="Peliculas1">
+     <img src={Pelicula1} alt="" class="Icono"/>
     <ul>
-     <h1 className="TituloPelicula">RED</h1>
-     <p cclassName="Genero">PG
+     <h1 class="TituloPelicula">RED</h1>
+     <p class="Genero">PG
      03/10/2022 (CZ)
      Animación, Familia, Comedia, Fantasía
      (1h 40m)</p>
-     <h6 className="Puntuacion">Puntuacion  
-     <i className="heart fa-solid fa-heart"></i>
-     <i className="heart fa-solid fa-heart"></i>
-     <i className="heart fa-solid fa-heart"></i>
-     <i className="heart fa-solid fa-heart"></i>
-     <i className="heart fa-regular fa-heart"></i></h6>
+     <h6 class="Puntuacion">Puntuacion  
+     <i class="heart fa-solid fa-heart"></i>
+     <i class="heart fa-solid fa-heart"></i>
+     <i class="heart fa-solid fa-heart"></i>
+     <i class="heart fa-solid fa-heart"></i>
+     <i class="heart fa-regular fa-heart"></i></h6>
      <h3>Descripcion</h3>
-     <p className="Descripcion">Mei Lee es una niña china-canadiense de trece años que se debate entre ser la hija obediente de su madre y el caos de la adolescencia. Y, por si los cambios en sus intereses, relaciones y cuerpo no fueran suficientes, cada vez que se emociona o estresa demasiado, se convierte en un panda rojo gigante.</p>
+     <p class="Descripcion">Mei Lee es una niña china-canadiense de trece años que se debate entre ser la hija obediente de su madre y el caos de la adolescencia. Y, por si los cambios en sus intereses, relaciones y cuerpo no fueran suficientes, cada vez que se emociona o estresa demasiado, se convierte en un panda rojo gigante.</p>
 
-     <a className="VerTrailer" href="https://www.youtube.com/watch?v=upGoAejd7LM">Ver Trailer</a>
-     <a className="VerTrailer" href="#">Mas Detalles</a>
+     <a class="VerTrailer" href="https://www.youtube.com/watch?v=upGoAejd7LM">Ver Trailer</a>
+     <a class="VerTrailer" href="#">Mas Detalles</a>
   </ul>
 </article>
 
-<article className="Peliculas2">
-  <img src={Pelicula2} alt="" className="Icono"/>
+<article class="Peliculas2">
+  <img src={Pelicula2} alt="" class="Icono"/>
   <ul>
-    <h1 className="TituloPelicula">PREY</h1>
-    <p className="Genero">R
+    <h1 class="TituloPelicula">PREY</h1>
+    <p class="Genero">R
       08/05/2022 (US)
       Suspense, Acción 
       (1h 40m)</p>
-      <h6 className="Puntuacion">Puntuacion  
-        <i className="heart fa-solid fa-heart"></i>
-        <i className="heart fa-solid fa-heart"></i>
-        <i className="heart fa-solid fa-heart"></i>
-        <i className="heart fa-solid fa-heart"></i>
-        <i className="heart fa-solid fa-heart"></i></h6>
+      <h6 class="Puntuacion">Puntuacion  
+        <i class="heart fa-solid fa-heart"></i>
+        <i class="heart fa-solid fa-heart"></i>
+        <i class="heart fa-solid fa-heart"></i>
+        <i class="heart fa-solid fa-heart"></i>
+        <i class="heart fa-solid fa-heart"></i></h6>
   <h3>Descripcion</h3>
-  <p className="Descripcion"> La historia no contada de una joven de la Nación Comanche, Naru: una guerrera feroz y altamente hábil, criada entre algunos de los mejores cazadores que vagaban por las Grandes Llanuras a principios de 1700. Confiada en que es tan capaz como los otros jóvenes cazadores, se dispone a proteger a su pueblo cuando el peligro amenaza a su campamento comanche.</p>
+  <p class="Descripcion"> La historia no contada de una joven de la Nación Comanche, Naru: una guerrera feroz y altamente hábil, criada entre algunos de los mejores cazadores que vagaban por las Grandes Llanuras a principios de 1700. Confiada en que es tan capaz como los otros jóvenes cazadores, se dispone a proteger a su pueblo cuando el peligro amenaza a su campamento comanche.</p>
   
-  <a className="VerTrailer" href="https://www.youtube.com/watch?v=wZ7LytagKlc">Ver Trailer</a>
-  <a className="VerTrailer" href="#">Mas Detalles</a>
+  <a class="VerTrailer" href="https://www.youtube.com/watch?v=wZ7LytagKlc">Ver Trailer</a>
+  <a class="VerTrailer" href="#">Mas Detalles</a>
   </ul>
   </article>
 
