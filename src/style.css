@@ -98,84 +98,29 @@
 
   .Recientes {
   margin-top: 15px;
-  height: 300px;
+  height: 380px;
   }
   .PeliculasRecientes {
     display: flex;
     height:400px;
     flex-direction: column;
   }
-  .Peliculas1 {
+  .Peliculas {
     display: flex;
     margin-left: 70px;
     margin-right: 70px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
     color: white;
-    background: linear-gradient(rgba(29, 28, 28, 0.788),hsl(0, 0%, 0%, 0.089)),url(./img/Pelicula01\,.jpg);
+    background:rgba(0, 0, 0, 0.267);
     background-position: 30% 17%;
     background-size: cover;
   }
 
-  .Peliculas2 {
-    display: flex;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-    background: linear-gradient(rgba(29, 28, 28, 0.788),hsl(0, 0%, 0%, 0.089)),url(./img/Pelicula02...jpg);
-    background-position: 30% 17%;
-    background-size: cover;
-  }
-  .Peliculas3 {
-    display: flex;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-    background: linear-gradient(rgba(29, 28, 28, 0.788),hsl(0, 0%, 0%, 0.089)),url(./img/Pelicula03...jpg);
-    background-position: 30% 17%;
-    background-size: cover;
-  }
-  .Peliculas4 {
-    display: flex;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-    background: linear-gradient(rgba(29, 28, 28, 0.788),hsl(0, 0%, 0%, 0.089)),url(./img/Pelicula04...jpg);
-    background-position: 30% 17%;
-    background-size: cover;
-  }
-  .Peliculas5 {
-    display: flex;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-    background: linear-gradient(rgba(29, 28, 28, 0.788),hsl(0, 0%, 0%, 0.089)),url(./img/Portada05...jpg);
-    background-position: 30% 17%;
-    background-size: cover;
-  }
+
 
   .heart{
    color: rgb(145, 7, 7);
@@ -193,7 +138,7 @@
     font-size: 30px;
       font-weight: 600;
       margin-bottom: 10px;
-      color: rgba(0, 0, 0, 0.781);
+      color: rgba(0, 0, 0, 0.897);
   }
   .Genero {
     font-size: 12px;
@@ -228,7 +173,7 @@
   background-color: rgba(255, 0, 0, 0.445);
   color: black;
   font-weight: bold;
-  margin-top: 1607px;
+  margin-top: -10px;
   margin-left: 70px;
   margin-right: 70px;
  }
