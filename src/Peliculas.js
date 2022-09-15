@@ -1,9 +1,4 @@
 import React from "react";
-import Pelicula1 from './img/Pelicula1.jpg';
-import Pelicula2 from './img/Pelicula2.jpg';
-import Pelicula3 from './img/Pelicula3.jpg';
-import Pelicula4 from './img/Pelicula4.jpg';
-import Pelicula5 from './img/Pelicula5.jpg';
 
 class Peliculas extends React.Component{
   render(){

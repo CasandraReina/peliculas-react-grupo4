@@ -10,19 +10,19 @@ function App() {
   return (
     <Container>
       <Row>
-      <Header/>
-      <Subtitulo/>
+        <Header/>
+        <Subtitulo/>
       
       {peliculas.map(peli=>
-      <Peliculas
-      img={peli.img}
-      titulo={peli.titulo}
-      genero={peli.genero}
-      descripcion={peli.descripcion}
-      trailer={peli.trailer}
-      />
+        <Peliculas
+          img={peli.img}
+          titulo={peli.titulo}
+          genero={peli.genero}
+          descripcion={peli.descripcion}
+          trailer={peli.trailer}
+        />
       )}
-      <Footer/>
+        <Footer/>
       </Row>
     </Container>
   );
